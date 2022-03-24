@@ -1,0 +1,6 @@
+{% extends 'accounts/main.html' %}
+    {% block content %}
+        {% for standard in standards %}
+            {{standard.name}}
+        {% endfor %}
+    {% endblock %}
